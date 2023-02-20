@@ -1,1 +1,139 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: #333;
+      }
+      h1, h2, h3 {
+        margin: 0;
+      }
+      h1 {
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      h2 {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      p {
+        margin: 0 0 10px 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .section {
+        margin-bottom: 30px;
+      }
+      .section:last-child {
+        margin-bottom: 0;
+      }
+      .section-title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      .section-content {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .contact {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .contact i {
+        font-size: 20px;
+        margin-right: 10px;
+      }
+      .contact a {
+        text-decoration: none;
+        color: #333;
+      }
+      .contact a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>John Doe</h1>
+        <div class="contact">
+          <i class="fa fa-envelope"></i>
+          <a href="mailto:john.doe@example.com">john.doe@example.com</a>
+        </div>
+        <div class="contact">
+          <i class="fa fa-phone"></i>
+          <a href="tel:+1234567890">+1 (234) 567-890</a>
+        </div>
+        <div class="contact">
+          <i class="fa fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/johndoe/">linkedin.com/in/johndoe/</a>
+        </div>
+      </header>
+      <main>
+        <div class="section">
+          <h2>Summary</h2>
+          <p>A highly motivated and results-driven software developer with over 5 years of experience in building web and mobile applications. Skilled in full-stack development, agile methodologies, and team collaboration.</p>
+        </div>
+        <div class="section">
+          <h2>Experience</h2>
+          <div class="section-content">
+            <h3>Senior Full-Stack Developer, Acme Inc.</h3>
+            <p><em>June 2019 - Present</em></p>
+            <ul>
+              <li>Lead development of new features for company               </li>
+              <li>Managed a team of 5 developers in an Agile development environment</li>
+              <li>Developed and maintained several web applications using React and Node.js</li>
+              <li>Designed and implemented RESTful APIs for multiple projects</li>
+              <li>Optimized application performance and scalability by implementing caching, load balancing, and database sharding</li>
+            </ul>
+            <h3>Software Developer, XYZ Corp.</h3>
+            <p><em>January 2017 - May 2019</em></p>
+            <ul>
+              <li>Collaborated with product managers, UX designers, and other developers to deliver high-quality software solutions</li>
+              <li>Developed and maintained several mobile applications using React Native and Firebase</li>
+              <li>Integrated third-party APIs and SDKs into projects</li>
+              <li>Participated in code reviews and contributed to a shared codebase</li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Skills</h2>
+          <div class="section-content">
+            <h3>Programming Languages</h3>
+            <p>JavaScript, TypeScript, HTML, CSS</p>
+            <h3>Frameworks & Libraries</h3>
+            <p>React, React Native, Node.js, Express, Redux, Jest, Enzyme</p>
+            <h3>Databases & Tools</h3>
+            <p>MongoDB, MySQL, Redis, Git, Jenkins, Docker</p>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Education</h2>
+          <div class="section-content">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>University of ABC, 2016</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
+
